@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: org.cytoscape.search.util;uses:="org.cytoscape.model,o
+ rg.apache.lucene.queryParser,org.apache.lucene.document,org.apache.lu
+ cene.search,org.apache.lucene.index,org.apache.lucene.analysis",org.c
+ ytoscape.search;uses:="org.cytoscape.model,org.cytoscape.work,org.apa
+ che.lucene.store,org.apache.lucene.search"
+Built-By: srinivasg
+Build-Jdk: 1.6.0_14
+Bundle-Version: 1.0.0.SNAPSHOT
+Tool: Bnd-0.0.255
+Bundle-Name: org.cytoscape.search-api
+Bnd-LastModified: 1250591635487
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.cytoscape.search-api
+Import-Package: org.apache.lucene.analysis;version="2.3",org.apache.lu
+ cene.document;version="2.3",org.apache.lucene.index;version="2.3",org
+ .apache.lucene.queryParser;version="2.3",org.apache.lucene.search;ver
+ sion="2.3",org.apache.lucene.store;version="2.3",org.cytoscape.model,
+ org.cytoscape.search,org.cytoscape.search.util,org.cytoscape.work
+
